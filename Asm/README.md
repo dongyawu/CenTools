@@ -1,4 +1,4 @@
-## Pracice in assembling complete centromeres and QC
+## Practice in assembling complete centromeres and QC
 ### assmbly
 
 HiFi + ONT(Ultra-long)
