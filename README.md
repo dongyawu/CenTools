@@ -7,7 +7,9 @@
 ### Satellite Clustering and Haplotyping
 
 ### Structural Organization
+
 Progressive Compression Strategy
+
 ![PCS](https://github.com/dongyawu/CenTools/blob/main/PCS/PCS.png)
 
 
