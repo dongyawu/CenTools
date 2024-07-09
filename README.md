@@ -10,6 +10,9 @@
 
 ### Transposon Element Annotation
 
+### Centromere Synteny
+see [SynPan-CEN](https://github.com/Darlene1997/SynPan-CEN)
+
 ### ChIP-seq Analysis
 
 ### Visualization
