@@ -1,19 +1,19 @@
-##Practice in Centromere Analysis
+## Practice in Centromere Analysis
 
-###Complete Cetromere Assembly
+### Complete Cetromere Assembly
 
-###Tandem Repeat Identification
+### Tandem Repeat Identification
 
-###Satellite Clustering and Haplotyping
+### Satellite Clustering and Haplotyping
 
-###Structural Organization
+### Structural Organization
 
-###Transposon Element Annotation
+### Transposon Element Annotation
 
-###ChIP-seq Analysis
+### ChIP-seq Analysis
 
-###Visualization
-####Within a Single centromere
+### Visualization
+#### Within a Single centromere
 
-####Between Two Centromeres
+#### Between Two Centromeres
 
