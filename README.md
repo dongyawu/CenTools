@@ -10,7 +10,7 @@
 
 Progressive Compression Strategy
 
-![PCS](https://github.com/dongyawu/CenTools/blob/main/PCS/PCS.png =300*200)
+![PCS](https://github.com/dongyawu/CenTools/blob/main/PCS/PCS.png =300x200)
 
 
 ### Transposon Element Annotation
