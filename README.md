@@ -8,6 +8,9 @@
 
 ### Structural Organization
 
+[PCS](https://github.com/dongyawu/CenTools/blob/main/PCS/PCS.png)
+
+
 ### Transposon Element Annotation
 
 ### Centromere Synteny
