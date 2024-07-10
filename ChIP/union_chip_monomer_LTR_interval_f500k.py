@@ -9,7 +9,7 @@ def zoom_in_centromeric_region_get_window_chip_100k(prefix, each_chr):
         Typee = row_type["Type"]
         mtype[Material] = Typee
     Type = mtype[prefix]
-    chip_infile = "/public2/labmember/xielj/T2Trice_centromere/06_Methylation/04_ChIP/window_ChIP2/" + str(prefix) + "_log2ratio_2k.bdg"
+    chip_infile = str(prefix) + "_log2ratio_2k.bdg"
     df_chippeak_region = pd.read_table("CENH3_position.txt", sep="\t")  ##Chr	CENH3S	CENH3E
     df_chr_chippeak = df_chippeak_region[df_chippeak_region["Chr"] == str(each_chr) + "_" + str(prefix)].reset_index(drop=True)
     outfile_chip = str(each_chr) + "_log2ratio_window2k_range500k.txt"
@@ -56,7 +56,7 @@ def annotation_tracks(prefix, each_chr):
         chip_s = int(df_chr_chippeak.loc[0, "CENH3S"])
         chip_e = int(df_chr_chippeak.loc[0, "CENH3E"])
 
-        Dir = "/public2/labmember/xielj/T2Trice_centromere/10_synteny_centromere/3_SynPanCent/"
+        Dir = "/your file path/"
         df_newID = pd.read_table(str(Dir) + "00_AllAnnotation/" + str(prefix) + "_full_annotation.rmdup.txt", sep="\t", header=None, names=["chr", "start", "end", "strand", "id", "group"])
         df_newID_chr = df_newID[df_newID["chr"] == str(each_chr) + "_" + str(prefix)].reset_index(drop=True)
         for index, row in df_newID_chr.iterrows():
@@ -78,7 +78,7 @@ def annotation_tracks(prefix, each_chr):
                     o.write(str(Type) + " " + str(prefix) + " " + str(each_chr) + ": " + str(chip_s-500000) + "-" + str(chip_e+500000) + "\t" + str(id) + "\t" + str(s-chip_s+500000) + "\t" + str(e-chip_s+500000) + "\t-5\t" + str(group) + "\n")
                 else:
                     pass
-        df_TE = pd.read_table("/public2/labmember/xielj/T2Trice_centromere/00_data/CENH3_ChIPseq/ChIPpeak/Omit_nonCEN155_ChIP/anno_gff.bed", sep="\t", header=None, names=["Chr", "start", "end", "anno"])
+        df_TE = pd.read_table("anno_gff.bed", sep="\t", header=None, names=["Chr", "start", "end", "anno"])
         df_TE_chr = df_TE[df_TE["Chr"] == str(each_chr) + "_" + str(prefix)].reset_index(drop=True)
         for indexx, roww in df_TE_chr.iterrows():
             s = int(roww["start"])
