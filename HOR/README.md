@@ -6,13 +6,6 @@ This script detects HORs for dimer-compressed monomer sequences of rice centrome
 - networkx
 - pygraphviz
 
-## Installation
-To install the required packages, you can use pip:
-
-```sh
-pip install networkx pygraphviz
-```
-
 ## Usage
 The script detects HOR for one dimer-compressed sequence at a time. 
 ```sh
