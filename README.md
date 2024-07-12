@@ -17,7 +17,7 @@ Progressive Compression Strategy
 
 
 ### Transposon Element Annotation
-
+see [TE_related_analysis_scripts](https://github.com/Ne0tea/Rice-pan-genome-analysis)
 
 ### Centromere Synteny
 see [SynPan-CEN](https://github.com/Darlene1997/SynPan-CEN)
